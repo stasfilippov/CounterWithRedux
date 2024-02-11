@@ -1,0 +1,25 @@
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.app_wrapper {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 5px cadetblue solid;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+
+}
