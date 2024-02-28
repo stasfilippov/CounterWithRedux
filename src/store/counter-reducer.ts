@@ -3,6 +3,7 @@ export type counterType = {
 	id: number
 	maxValue: number
 	minValue: number
+	counter: number
 }
 
 const initialState: counterType[] = [
@@ -10,11 +11,13 @@ const initialState: counterType[] = [
 		id: 0,
 		maxValue: 5,
 		minValue: 0,
+		counter: 0
 	},
 	{
 		id: 1,
 		maxValue: 4,
 		minValue: 0,
+		counter: 0
 	}
 ]
 

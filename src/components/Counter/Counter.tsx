@@ -12,7 +12,6 @@ type CounterPropsType = {
 export type NameButtonType = 'add' | 'reset'
 export const Counter:React.FC<CounterPropsType> = ({idCounter, maxValue, minValue}) => {
 
-
 	let dispatch = useDispatch()
 
 	const incrementCount = () => {
@@ -34,7 +33,7 @@ export const Counter:React.FC<CounterPropsType> = ({idCounter, maxValue, minValu
 
 	return (
 		<div className={'wrapper'}>
-			<Scoreb§oard
+			<Scoreboard
 				maxValue={maxValue}
 				minValue={minValue}
 			/>
